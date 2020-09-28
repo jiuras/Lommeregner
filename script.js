@@ -1,4 +1,4 @@
-function doTheMath(method) {
+/*function doTheMath(method) {
     let x = parseFloat(document.getElementById("txt1").value);
     let y = parseFloat(document.getElementById("txt2").value);
 
@@ -14,8 +14,9 @@ function doTheMath(method) {
     else if (method = division)
         let result = x / y;
 }
+*/
 
-//Få lortet til at virke
+//Få overstående kode til at virke
 
 function addition() {
     let x = parseFloat(document.getElementById("txt1").value);
