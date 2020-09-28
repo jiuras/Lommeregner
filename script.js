@@ -15,8 +15,7 @@ function doTheMath(method) {
         let result = x / y;
 }
 
-
-
+//Få lortet til at virke
 
 function addition() {
     let x = parseFloat(document.getElementById("txt1").value);
