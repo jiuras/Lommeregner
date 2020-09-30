@@ -13,3 +13,6 @@
  Ellers har jeg noget velfungerende kode, som jeg altid kan gøre brug af hvis det andet ikke lykkes. 
  Derudover har jeg forsøgt at få decimaltal til at virke ved at bruge "parseFloat", men det driller også. "parseInt" virker helt fint, men kan ikke få det omdannet til decimaltal.
  Kun ved brug af brøker.
+
+ 30/09 - 2020
+ Har forsøgt at fikse det nye kode. Først og fremmest er "=" tegnene blevet fikset til triple så den tjekkede i stedet.
