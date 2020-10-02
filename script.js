@@ -21,6 +21,7 @@ function doTheMath(method) {
 
     document.getElementById("result").value = result;
 }
+// Nedestående kode var mit første forsøg på at lave koden mere dynamisk. Det virker meget simpelt, men kan dog stadig skrives mere enkelt.
 
     /*if (method == 'addition') {
         result = x + y;
