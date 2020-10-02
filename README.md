@@ -16,3 +16,15 @@
 
  30/09 - 2020
  Har forsøgt at fikse det nye kode. Først og fremmest er "=" tegnene blevet fikset til triple så den tjekkede i stedet.
+
+ 02-10 - 2020
+ Jeg har fået fikset det kode som har drillet mig. Grunden til det drillede var, at jeg først definerede variablen "result" midtvejs i koden, men det skulle have været gjort før som vidst her:
+
+ let result;
+ if (method == 'addition') {
+        result = x + y;
+        ...
+
+Yderligere har jeg simplificeret koden endnu mere, ved at bruge metoden switch. In case of xxx skal der ske følgende: x + y og derefter break; hvis udsagnet er korrekt.
+Sidste ting som er blevet ændret er parseFloat, som er blevet lavet om til Number, som både tager hensyn til heltal og decimaltal.
+

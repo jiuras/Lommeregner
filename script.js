@@ -1,24 +1,46 @@
 function doTheMath(method) {
-    let x = parseFloat(document.getElementById("txt1").value);
-    let y = parseFloat(document.getElementById("txt2").value);
+    let x = Number(document.getElementById("txt1").value);
+    let y = Number(document.getElementById("txt2").value);
 
-    if (method === "addition")
-        let result = x + y;
+    let result;
 
-    else if (method === "subtraction")
-        let result = x - y;
+    switch(method) {
+        case 'addition':
+            result = x + y;
+            break;
+        case 'subtraction':
+            result = x - y;
+            break;
+        case 'multiplication':
+            result = x * y;
+            break;
+        case 'division':
+            result = x / y;
+            break;
+    }
 
-    else if (method === "multiplication")
-        let result = x * y;
-        
-    else if (method === "division")
-        let result = x / y;
+    document.getElementById("result").value = result;
 }
 
+    /*if (method == 'addition') {
+        result = x + y;
+    }
+    else if (method == 'subtraction') {
+        result = x - y;
+    }
+    else if (method == 'multiplication') {
+        result = x * y;
+    }
+    else if (method == 'division') {
 
-//Få overstående kode til at virke
+    }*/
 
-function addition() {
+
+
+
+// Nedestående kode var mit første uddrag af selve koden til lommeregneren. Det virker, er ikke særlig dynamisk eller for den sags skyld pænt.
+
+/*function addition() {
     let x = parseFloat(document.getElementById("txt1").value);
     let y = parseFloat(document.getElementById("txt2").value);
 
@@ -49,3 +71,4 @@ function division() {
     let result = x / y;
     document.getElementById("result").value = result;
 }
+*/
