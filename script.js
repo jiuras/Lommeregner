@@ -17,6 +17,9 @@ function doTheMath(method) {
         case 'division':
             result = x / y;
             break;
+        case 'I anden':
+            result = x * x;
+            break;
     }
 
     document.getElementById("result").value = result;

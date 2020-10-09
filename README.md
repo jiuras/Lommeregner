@@ -22,3 +22,5 @@
 Yderligere har jeg simplificeret koden endnu mere, ved at bruge metoden switch. Dynamisk og simpel metode, så man ikke behøver skrive lange if-statements osv.
 Sidste ting som er blevet ændret er parseFloat, som er blevet lavet om til Number, som både tager hensyn til heltal og decimaltal.
 
+
+
